@@ -1,0 +1,28 @@
+_id: env_658cb6bb6766449589bdfdbfbeac8c24
+type: Environment
+parentId: wrk_d994504da65c418f953c9f80f4fc9877
+modified: 1644820470977
+created: 1644475896977
+name: Base Environment
+data:
+  localhost: http://localhost:8080
+  local_api: http://localhost:8080/api
+  users: users
+  shops: shops
+  subscribes: subscribes
+  menus: menus
+  paytoekn: pay_tokens
+  use_histories: use_histories
+dataPropertyOrder:
+  "&":
+    - localhost
+    - local_api
+    - users
+    - shops
+    - subscribes
+    - menus
+    - paytoekn
+    - use_histories
+color: null
+isPrivate: false
+metaSortKey: 1634897022297

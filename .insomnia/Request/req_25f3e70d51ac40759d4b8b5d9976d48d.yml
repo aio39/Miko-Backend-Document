@@ -1,0 +1,24 @@
+_id: req_25f3e70d51ac40759d4b8b5d9976d48d
+type: Request
+parentId: fld_1e8b957bc55c4558a892fa6b624cd4d2
+modified: 1644563209186
+created: 1644555051626
+url: "{{ _.local_api }}/login/google"
+name: OAuth  Google Login
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: client_credentials
+  disabled: true
+metaSortKey: -1643093586034.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

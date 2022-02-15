@@ -1,0 +1,21 @@
+_id: req_8d749604baae40d085d69012870382d6
+type: Request
+parentId: fld_1e8b957bc55c4558a892fa6b624cd4d2
+modified: 1644555057250
+created: 1644478184136
+url: "{{ _.local_api }}/login/twitter"
+name: OAuth  twitter
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1644478184136
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

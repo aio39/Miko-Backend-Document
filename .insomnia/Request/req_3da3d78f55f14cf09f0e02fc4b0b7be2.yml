@@ -1,0 +1,30 @@
+_id: req_3da3d78f55f14cf09f0e02fc4b0b7be2
+type: Request
+parentId: fld_1e8b957bc55c4558a892fa6b624cd4d2
+modified: 1644903408726
+created: 1644475897124
+url: "{{ _.local_api }}/logout"
+name: logout
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_b64a915714334b46b33aec5fb3be6f23
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+  - id: pair_c9a33bf7e1904b22976940655932bee6
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1636797752288.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
