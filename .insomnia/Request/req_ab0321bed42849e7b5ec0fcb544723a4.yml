@@ -1,0 +1,29 @@
+_id: req_ab0321bed42849e7b5ec0fcb544723a4
+type: Request
+parentId: fld_efeae482f3d74b44aaccc059d82b0b94
+modified: 1644992026381
+created: 1644991756986
+url: "{{ _.local_api }}/{{ _.USER_TICKETS }}/1"
+name: delete user_ticket
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_d868d3bf6d4145d0b73113843a6d11c6
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_2daf9dbbfff3444e92c6c81026664915
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1644904339015.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

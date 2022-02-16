@@ -1,0 +1,65 @@
+_id: req_65b07de2df9142a79d0fb7b3535e6257
+type: Request
+parentId: fld_efeae482f3d74b44aaccc059d82b0b94
+modified: 1644997564311
+created: 1644991756983
+url: "{{ _.local_api }}/{{ _.USER_TICKETS }}"
+name: user_ticket-pagination
+description: ?b=37.51367367847343&l=126.9138065835704&r=126.92492165772813&t=37.5280034775390
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_8dfdfa30357742b2bf8abe43ec409749
+    name: per_page
+    value: "20"
+    description: ""
+  - id: pair_5fd8db2d38904c48a83bfff00d8c3477
+    name: with
+    value: menus
+    description: ""
+    disabled: true
+  - id: pair_4b522115d16a440388dcf1f75fe6c824
+    name: filter
+    value: user_id:1
+    description: ""
+    disabled: false
+  - id: pair_cfaf313f5527486fb228104bc8b5c57b
+    name: sort
+    value: -id
+    description: ""
+    disabled: true
+  - id: pair_b27c3563c6f04f919d75d88edd8579f9
+    name: distance
+    value: "100"
+    description: ""
+    disabled: true
+  - id: pair_061c7189553548c092b0fa3a6b99e64b
+    name: page
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_3b964260299a4d7a8099afc10ed2627e
+    name: search
+    value: 치킨*
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e3247957679a4d599449d0b68cea8199
+  - id: pair_9de81343b5a64351a16120e737397a89
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1644904339190.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

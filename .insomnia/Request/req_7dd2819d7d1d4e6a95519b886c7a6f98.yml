@@ -1,0 +1,21 @@
+_id: req_7dd2819d7d1d4e6a95519b886c7a6f98
+type: Request
+parentId: fld_efeae482f3d74b44aaccc059d82b0b94
+modified: 1644997589364
+created: 1644991756975
+url: "{{ _.local_api }}/{{ _.USER_TICKETS }}/6"
+name: get one user_tikcet
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1644904339165.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

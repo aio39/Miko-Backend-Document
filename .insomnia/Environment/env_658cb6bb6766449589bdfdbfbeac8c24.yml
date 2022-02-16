@@ -1,7 +1,7 @@
 _id: env_658cb6bb6766449589bdfdbfbeac8c24
 type: Environment
 parentId: wrk_d994504da65c418f953c9f80f4fc9877
-modified: 1644990178562
+modified: 1644991968395
 created: 1644475896977
 name: Base Environment
 data:
@@ -15,6 +15,9 @@ data:
   use_histories: use_histories
   CONCERTS: concerts
   TICKETS: tickets
+  USER_TICKETS: user_tickets
+  CHATS: chats
+  COIN_HISTORIES: coin_histories
 dataPropertyOrder:
   "&":
     - localhost
@@ -27,6 +30,9 @@ dataPropertyOrder:
     - use_histories
     - CONCERTS
     - TICKETS
+    - USER_TICKETS
+    - CHATS
+    - COIN_HISTORIES
 color: null
 isPrivate: false
 metaSortKey: 1634897022297
