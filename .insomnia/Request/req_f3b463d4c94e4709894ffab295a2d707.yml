@@ -1,0 +1,37 @@
+_id: req_f3b463d4c94e4709894ffab295a2d707
+type: Request
+parentId: fld_947d7ca587d9481eaa81dbd52ade2938
+modified: 1644910373232
+created: 1644560724037
+url: "{{ _.local_api }}/user"
+name: create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"abc",
+    	"email":"abc@abc.com",
+    	"password":"123456789",
+    	"avatar":"123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_825adcbd01e143a087552c687ebbd122
+    disabled: false
+  - id: pair_1234e39bb21f40019ae91e905b561d16
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1644560724037
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

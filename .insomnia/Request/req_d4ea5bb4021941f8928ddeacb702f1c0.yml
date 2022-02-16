@@ -1,0 +1,39 @@
+_id: req_d4ea5bb4021941f8928ddeacb702f1c0
+type: Request
+parentId: fld_1e8b957bc55c4558a892fa6b624cd4d2
+modified: 1644991323214
+created: 1644475897120
+url: "{{ _.local_api }}/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"abc@abc.com",
+    	"password":"123456789"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_58de9467096b4fed8413f2329452c299
+  - id: pair_b64a915714334b46b33aec5fb3be6f23
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+  - id: pair_c9a33bf7e1904b22976940655932bee6
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1636878248787
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_61348aac8a72432e88af48449c19b1fc
+type: Request
+parentId: fld_23775364c3ba4d6d9b80986c83a1c6bd
+modified: 1644990216779
+created: 1644990104863
+url: "{{ _.local_api }}/{{ _.TICKETS }}/1"
+name: delete ticket
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_d868d3bf6d4145d0b73113843a6d11c6
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_2daf9dbbfff3444e92c6c81026664915
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1644904339015.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

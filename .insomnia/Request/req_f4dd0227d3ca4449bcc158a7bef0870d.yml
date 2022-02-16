@@ -1,0 +1,64 @@
+_id: req_f4dd0227d3ca4449bcc158a7bef0870d
+type: Request
+parentId: fld_a9c058716d7440d2952ac9ea865dfc5d
+modified: 1644991339316
+created: 1644906985988
+url: "{{ _.local_api }}/{{ _.CONCERTS }}"
+name: create concert
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: category_id
+      value: "1"
+      id: pair_f966d9ef7ef8453c8ef5646fd398bfe7
+    - id: pair_541ce16688c9430fbc6b704d64c32e30
+      name: cover_image
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\aiole\Downloads\images\card_after_training.png
+    - id: pair_0dff5abac109423c9fccab2edee8374d
+      name: title
+      value: Magical Mirai
+      description: ""
+    - id: pair_1679f8a3bd154c5c895d00ba57a31421
+      name: artist
+      value: "1002"
+      description: ""
+    - id: pair_180cd4848bf848a4b9344bf5f05a1f07
+      name: detail
+      value: 설명 설명
+      description: ""
+    - id: pair_6942e52a70314212b3e150deb1b2547d
+      name: content
+      value: "md "
+      description: ""
+    - id: pair_1f26ba4d37384b0684c5d9bc4793569b
+      name: all_concert_start_date
+      value: "1648090649"
+      description: ""
+    - id: pair_b4271a768096420fa08235c29941342c
+      name: all_concert_end_date
+      value: "1648190649"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_e3247957679a4d599449d0b68cea8199
+  - id: pair_9de81343b5a64351a16120e737397a89
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1644904339140.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

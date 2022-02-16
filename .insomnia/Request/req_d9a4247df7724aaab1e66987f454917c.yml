@@ -1,0 +1,29 @@
+_id: req_d9a4247df7724aaab1e66987f454917c
+type: Request
+parentId: fld_a9c058716d7440d2952ac9ea865dfc5d
+modified: 1644990237039
+created: 1644475897012
+url: "{{ _.local_api }}/{{ _.CONCERTS }}"
+name: delete concert
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_d868d3bf6d4145d0b73113843a6d11c6
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_2daf9dbbfff3444e92c6c81026664915
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1644904339015.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

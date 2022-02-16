@@ -1,17 +1,17 @@
-_id: req_1742d760af014685aa7847c2dfd76adc
+_id: req_1f792f9ba4714e98b5c44977e6d644dd
 type: Request
 parentId: fld_3ab18724cab049a4a3608d736e51cc87
-modified: 1644991650128
-created: 1644824632607
-url: localhost:3001/api/redis
-name: redis test
+modified: 1644991655956
+created: 1644475897131
+url: "{{ _.localhost }}/api/test"
+name: server test
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1635923714260.5
+metaSortKey: -1635923714210.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

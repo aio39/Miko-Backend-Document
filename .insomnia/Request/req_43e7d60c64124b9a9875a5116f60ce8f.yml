@@ -1,17 +1,17 @@
-_id: req_1742d760af014685aa7847c2dfd76adc
+_id: req_43e7d60c64124b9a9875a5116f60ce8f
 type: Request
-parentId: fld_3ab18724cab049a4a3608d736e51cc87
-modified: 1644991650128
-created: 1644824632607
-url: localhost:3001/api/redis
-name: redis test
+parentId: fld_23775364c3ba4d6d9b80986c83a1c6bd
+modified: 1644990208267
+created: 1644990104848
+url: "{{ _.local_api }}/{{ _.TICKETS }}/1"
+name: get one ticket
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1635923714260.5
+metaSortKey: -1644904339165.5312
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

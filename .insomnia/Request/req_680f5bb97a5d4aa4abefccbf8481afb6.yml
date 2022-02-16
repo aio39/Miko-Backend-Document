@@ -1,17 +1,17 @@
-_id: req_1742d760af014685aa7847c2dfd76adc
+_id: req_680f5bb97a5d4aa4abefccbf8481afb6
 type: Request
-parentId: fld_3ab18724cab049a4a3608d736e51cc87
-modified: 1644991650128
-created: 1644824632607
-url: localhost:3001/api/redis
-name: redis test
+parentId: fld_a9c058716d7440d2952ac9ea865dfc5d
+modified: 1644990233815
+created: 1644475896999
+url: "{{ _.local_api }}/{{ _.CONCERTS }}/1"
+name: get one concert
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1635923714260.5
+metaSortKey: -1644904339165.5312
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
