@@ -1,0 +1,29 @@
+_id: req_d9b14849a22448f2ace28a66e0b55ea9
+type: Request
+parentId: fld_1c24b141b14046c7b42883a478540a42
+modified: 1645506726113
+created: 1645506542374
+url: "{{ _.local_api }}/{{ _.CHATS }}/1"
+name: delete chat
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_d868d3bf6d4145d0b73113843a6d11c6
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_2daf9dbbfff3444e92c6c81026664915
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1644904339015.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

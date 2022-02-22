@@ -1,0 +1,21 @@
+_id: req_2c4249d02de9424c9f6031654e9124af
+type: Request
+parentId: fld_1c24b141b14046c7b42883a478540a42
+modified: 1645506719504
+created: 1645506542358
+url: "{{ _.local_api }}/{{ _.CHATS }}/1"
+name: get one chat
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1644904339165.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

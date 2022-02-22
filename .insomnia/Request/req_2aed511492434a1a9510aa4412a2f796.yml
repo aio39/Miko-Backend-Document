@@ -1,47 +1,35 @@
-_id: req_f4dd0227d3ca4449bcc158a7bef0870d
+_id: req_2aed511492434a1a9510aa4412a2f796
 type: Request
-parentId: fld_a9c058716d7440d2952ac9ea865dfc5d
-modified: 1645505121398
-created: 1644906985988
-url: "{{ _.local_api }}/{{ _.CONCERTS }}"
-name: create concert
+parentId: fld_dfe63486d6ad40b38a13bb1759688bae
+modified: 1645511013406
+created: 1645510712152
+url: "{{ _.local_api }}/{{ _.PRODUCT }}"
+name: create product
 description: ""
 method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - name: category_id
+    - name: concert_id
       value: "1"
       id: pair_f966d9ef7ef8453c8ef5646fd398bfe7
     - id: pair_541ce16688c9430fbc6b704d64c32e30
-      name: cover_image
+      name: image
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\aiole\Downloads\images\card_after_training.png
+      fileName: C:\Users\aiole\Downloads\images\goods_nic_penlight.jpg
     - id: pair_0dff5abac109423c9fccab2edee8374d
-      name: title
-      value: Magical Mirai
+      name: price
+      value: "1000"
       description: ""
     - id: pair_1679f8a3bd154c5c895d00ba57a31421
-      name: artist
-      value: "1002"
+      name: name
+      value: 펜라이트
       description: ""
-    - id: pair_180cd4848bf848a4b9344bf5f05a1f07
+    - id: pair_645bd395a0504ddaaf509fffb87a4217
       name: detail
-      value: 설명 설명
-      description: ""
-    - id: pair_6942e52a70314212b3e150deb1b2547d
-      name: content
-      value: "md "
-      description: ""
-    - id: pair_1f26ba4d37384b0684c5d9bc4793569b
-      name: all_concert_start_date
-      value: "1648090649"
-      description: ""
-    - id: pair_b4271a768096420fa08235c29941342c
-      name: all_concert_end_date
-      value: "1648190649"
+      value: 설명 문
       description: ""
 parameters: []
 headers:
@@ -54,7 +42,7 @@ headers:
     description: ""
     disabled: false
 authentication: {}
-metaSortKey: -1644904339140.5312
+metaSortKey: -1644904339153.0312
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

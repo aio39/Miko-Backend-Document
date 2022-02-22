@@ -1,35 +1,33 @@
-_id: req_d4ea5bb4021941f8928ddeacb702f1c0
+_id: req_03377b0b0da04e559a4a6903e421fed3
 type: Request
-parentId: fld_1e8b957bc55c4558a892fa6b624cd4d2
-modified: 1645505058333
-created: 1644475897120
-url: "{{ _.local_api }}/login"
-name: login
+parentId: fld_1c24b141b14046c7b42883a478540a42
+modified: 1645507259434
+created: 1645506542379
+url: "{{ _.local_api }}/{{ _.CHATS }}"
+name: create chat
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email":"abc@abc.com",
-    	"password":"123456789"
+    	"ticket_id": 1,
+    	"user_id": 10,
+    	"text": "text text",
+    	"created_at": 1648090649
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_58de9467096b4fed8413f2329452c299
-  - id: pair_b64a915714334b46b33aec5fb3be6f23
+    id: pair_e3247957679a4d599449d0b68cea8199
+  - id: pair_9de81343b5a64351a16120e737397a89
     name: Accept
     value: application/json
     description: ""
     disabled: false
-  - id: pair_c9a33bf7e1904b22976940655932bee6
-    name: ""
-    value: ""
-    description: ""
 authentication: {}
-metaSortKey: -1636878248787
+metaSortKey: -1644904339140.5312
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

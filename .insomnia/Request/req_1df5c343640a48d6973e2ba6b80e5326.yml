@@ -1,0 +1,29 @@
+_id: req_1df5c343640a48d6973e2ba6b80e5326
+type: Request
+parentId: fld_dfe63486d6ad40b38a13bb1759688bae
+modified: 1645510650651
+created: 1645508143591
+url: "{{ _.local_api }}/{{ _.PRODUCT }}/1"
+name: get one product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1fe72a02528e419c935b30d2fe021026
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_0bc74b2dd2b74e8d9064e0fb10e89cc4
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1644904339165.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

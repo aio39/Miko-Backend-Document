@@ -1,0 +1,21 @@
+_id: req_be9f39c7576c482e9819ef061b9208fd
+type: Request
+parentId: fld_a5d73cbe57b54c23a683f147b8907d0b
+modified: 1645510575355
+created: 1645506555675
+url: "{{ _.local_api }}/{{ _.COIN_HISTORIES }}/1"
+name: get one coin-history
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1644904339165.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
