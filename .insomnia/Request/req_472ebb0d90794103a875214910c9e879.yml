@@ -1,7 +1,7 @@
 _id: req_472ebb0d90794103a875214910c9e879
 type: Request
 parentId: fld_a9c058716d7440d2952ac9ea865dfc5d
-modified: 1644990231795
+modified: 1646648814379
 created: 1644475897004
 url: "{{ _.local_api }}/{{ _.CONCERTS }}"
 name: concert-pagination
@@ -17,12 +17,12 @@ parameters:
     description: ""
   - id: pair_5fd8db2d38904c48a83bfff00d8c3477
     name: with
-    value: menus
+    value: user,tickets
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_4b522115d16a440388dcf1f75fe6c824
     name: filter
-    value: user_id:1
+    value: id:1
     description: ""
     disabled: false
   - id: pair_cfaf313f5527486fb228104bc8b5c57b

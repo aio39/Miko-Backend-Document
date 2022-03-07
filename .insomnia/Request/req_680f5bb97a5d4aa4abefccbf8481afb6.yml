@@ -1,9 +1,9 @@
 _id: req_680f5bb97a5d4aa4abefccbf8481afb6
 type: Request
 parentId: fld_a9c058716d7440d2952ac9ea865dfc5d
-modified: 1644990233815
+modified: 1646633691951
 created: 1644475896999
-url: "{{ _.local_api }}/{{ _.CONCERTS }}/1"
+url: "{{ _.local_api }}/{{ _.CONCERTS }}/2"
 name: get one concert
 description: ""
 method: GET
