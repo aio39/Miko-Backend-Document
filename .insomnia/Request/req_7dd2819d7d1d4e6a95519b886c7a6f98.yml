@@ -1,15 +1,23 @@
 _id: req_7dd2819d7d1d4e6a95519b886c7a6f98
 type: Request
 parentId: fld_efeae482f3d74b44aaccc059d82b0b94
-modified: 1644997589364
+modified: 1646886662659
 created: 1644991756975
-url: "{{ _.local_api }}/{{ _.USER_TICKETS }}/6"
+url: "{{ _.local_api }}/{{ _.USER_TICKETS }}/1"
 name: get one user_tikcet
 description: ""
 method: GET
 body: {}
-parameters: []
-headers: []
+parameters:
+  - id: pair_e2971d8db918419f88c2854750b70b3f
+    name: with
+    value: concert,ticket
+    description: ""
+headers:
+  - id: pair_4396771d462f47b7bcc0485c4fdd826c
+    name: Accept
+    value: application/json
+    description: ""
 authentication: {}
 metaSortKey: -1644904339165.5312
 isPrivate: false

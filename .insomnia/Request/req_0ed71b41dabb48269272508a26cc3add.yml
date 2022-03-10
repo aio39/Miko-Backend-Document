@@ -1,7 +1,7 @@
 _id: req_0ed71b41dabb48269272508a26cc3add
 type: Request
 parentId: fld_a5d73cbe57b54c23a683f147b8907d0b
-modified: 1646650112197
+modified: 1645510590758
 created: 1645506555684
 url: "{{ _.local_api }}/{{ _.COIN_HISTORIES }}"
 name: coin-history-pagination
@@ -17,9 +17,9 @@ parameters:
     description: ""
   - id: pair_5fd8db2d38904c48a83bfff00d8c3477
     name: with
-    value: ticket
+    value: menus
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_4b522115d16a440388dcf1f75fe6c824
     name: filter
     value: concert_id:1

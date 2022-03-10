@@ -1,7 +1,7 @@
 _id: req_dea2d1044d4f417b9a0314beee19baf3
 type: Request
 parentId: fld_23775364c3ba4d6d9b80986c83a1c6bd
-modified: 1646649283118
+modified: 1646889855486
 created: 1644990104866
 url: "{{ _.local_api }}/{{ _.TICKETS }}"
 name: create ticket
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"concert_id": 1,
-    	"price": 3000,
+    	"price": 0,
     	"running_time": 90,
     	"sale_start_date": 1648090649,
     	"sale_end_date": 1648090649,

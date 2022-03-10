@@ -1,7 +1,7 @@
 _id: req_f4dd0227d3ca4449bcc158a7bef0870d
 type: Request
 parentId: fld_a9c058716d7440d2952ac9ea865dfc5d
-modified: 1646633615285
+modified: 1646894215509
 created: 1644906985988
 url: "{{ _.local_api }}/{{ _.CONCERTS }}"
 name: create concert
@@ -11,7 +11,7 @@ body:
   mimeType: multipart/form-data
   params:
     - name: category_id
-      value: "1"
+      value: "2"
       id: pair_f966d9ef7ef8453c8ef5646fd398bfe7
     - id: pair_541ce16688c9430fbc6b704d64c32e30
       name: cover_image
@@ -21,11 +21,11 @@ body:
       fileName: C:\Users\aiole\Downloads\images\card_after_training.png
     - id: pair_0dff5abac109423c9fccab2edee8374d
       name: title
-      value: Magical Mirai
+      value: 제목 저런
       description: ""
     - id: pair_1679f8a3bd154c5c895d00ba57a31421
       name: artist
-      value: "1002"
+      value: 안녕 안녕
       description: ""
     - id: pair_180cd4848bf848a4b9344bf5f05a1f07
       name: detail
