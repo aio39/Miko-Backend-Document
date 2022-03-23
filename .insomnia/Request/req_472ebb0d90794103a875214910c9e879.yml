@@ -1,7 +1,7 @@
 _id: req_472ebb0d90794103a875214910c9e879
 type: Request
 parentId: fld_a9c058716d7440d2952ac9ea865dfc5d
-modified: 1646894334089
+modified: 1648002975116
 created: 1644475897004
 url: "{{ _.local_api }}/{{ _.CONCERTS }}"
 name: concert-pagination
@@ -15,6 +15,7 @@ parameters:
     name: per_page
     value: "3"
     description: ""
+    disabled: true
   - id: pair_5fd8db2d38904c48a83bfff00d8c3477
     name: with
     value: menus
@@ -22,9 +23,9 @@ parameters:
     disabled: true
   - id: pair_4b522115d16a440388dcf1f75fe6c824
     name: filter
-    value: category_id:2
+    value: user_id:1
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_cfaf313f5527486fb228104bc8b5c57b
     name: sort
     value: -id
@@ -44,7 +45,7 @@ parameters:
     name: search
     value: miku 2021
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_bb07711eccd04fc989b028b13cb22872
     name: ""
     value: ""

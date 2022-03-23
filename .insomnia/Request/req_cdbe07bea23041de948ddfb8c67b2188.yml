@@ -1,0 +1,21 @@
+_id: req_cdbe07bea23041de948ddfb8c67b2188
+type: Request
+parentId: fld_3ab18724cab049a4a3608d736e51cc87
+modified: 1647231732270
+created: 1647231723395
+url: "{{ _.local_api }}/test"
+name: My Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1647231723395
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

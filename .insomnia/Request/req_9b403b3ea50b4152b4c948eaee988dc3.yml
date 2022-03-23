@@ -1,10 +1,10 @@
-_id: req_130944450b144b6d978770ed322383b1
+_id: req_9b403b3ea50b4152b4c948eaee988dc3
 type: Request
-parentId: fld_23775364c3ba4d6d9b80986c83a1c6bd
-modified: 1647943340400
-created: 1644990104857
-url: "{{ _.local_api }}/{{ _.TICKETS }}"
-name: ticket-pagination
+parentId: fld_5b5f6da0876b4fa99f41d2ae802cf397
+modified: 1647923394049
+created: 1647914922788
+url: "{{ _.local_api }}/data/caspt"
+name: concertAddedScorePerTime-pagination
 description: ?b=37.51367367847343&l=126.9138065835704&r=126.92492165772813&t=37.5280034775390
 method: GET
 body:
@@ -13,18 +13,19 @@ body:
 parameters:
   - id: pair_8dfdfa30357742b2bf8abe43ec409749
     name: per_page
-    value: "20"
+    value: "3"
     description: ""
+    disabled: true
   - id: pair_5fd8db2d38904c48a83bfff00d8c3477
     name: with
-    value: menus
+    value: ticket
     description: ""
     disabled: true
   - id: pair_4b522115d16a440388dcf1f75fe6c824
     name: filter
-    value: concert_id:1
+    value: category_id:2
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_cfaf313f5527486fb228104bc8b5c57b
     name: sort
     value: -id
@@ -37,14 +38,32 @@ parameters:
     disabled: true
   - id: pair_061c7189553548c092b0fa3a6b99e64b
     name: page
-    value: "1"
+    value: "2"
     description: ""
     disabled: true
   - id: pair_3b964260299a4d7a8099afc10ed2627e
     name: search
-    value: 치킨*
+    value: miku 2021
     description: ""
     disabled: true
+  - id: pair_bb07711eccd04fc989b028b13cb22872
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_bb290f2f723e48a0af34f6229d844ec6
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_14c8183f738a4b1c93b434dc19eac6d0
+    name: start
+    value: 2022-03-21T14:18:00
+    description: ""
+    disabled: false
+  - id: pair_56065487eeb44f748348c0f1f2fbecb3
+    name: end
+    value: 2022-03-21T16:16:00
+    description: ""
+    disabled: false
 headers:
   - name: Content-Type
     value: application/json
@@ -55,7 +74,7 @@ headers:
     description: ""
     disabled: false
 authentication: {}
-metaSortKey: -1644904339190.5312
+metaSortKey: -1647912499055
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

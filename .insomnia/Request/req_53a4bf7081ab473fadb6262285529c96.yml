@@ -1,0 +1,21 @@
+_id: req_53a4bf7081ab473fadb6262285529c96
+type: Request
+parentId: fld_7146495bf0d043fba6ffc697d56644e4
+modified: 1647912468479
+created: 1647492502939
+url: "{{ _.nest_api }}/concerts/quiz/1647479584895"
+name: get quiz result
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1647492502939
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

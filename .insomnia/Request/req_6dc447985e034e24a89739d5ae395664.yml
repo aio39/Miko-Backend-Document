@@ -1,0 +1,29 @@
+_id: req_6dc447985e034e24a89739d5ae395664
+type: Request
+parentId: fld_ce69cd1465cd48858b4943fc72a9179c
+modified: 1647912468063
+created: 1646894420151
+url: "{{ _.nest_api }}/room/enter-random"
+name: room test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"concertId":"abcd"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c6b851471792416da7d93014689644e0
+authentication: {}
+metaSortKey: -1646894420151
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

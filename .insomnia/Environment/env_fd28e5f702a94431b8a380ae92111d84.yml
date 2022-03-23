@@ -1,0 +1,14 @@
+_id: env_fd28e5f702a94431b8a380ae92111d84
+type: Environment
+parentId: env_658cb6bb6766449589bdfdbfbeac8c24
+modified: 1647858540751
+created: 1647232608404
+name: deploy
+data:
+  local_api: https://miko-laravel-env.eba-kk86zm9z.ap-northeast-2.elasticbeanstalk.com/api
+dataPropertyOrder:
+  "&":
+    - local_api
+color: null
+isPrivate: false
+metaSortKey: 1647232608404
