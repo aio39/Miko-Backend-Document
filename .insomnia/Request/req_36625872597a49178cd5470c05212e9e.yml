@@ -1,7 +1,7 @@
 _id: req_36625872597a49178cd5470c05212e9e
 type: Request
 parentId: fld_dfe63486d6ad40b38a13bb1759688bae
-modified: 1645510689313
+modified: 1647860850028
 created: 1645508143596
 url: "{{ _.local_api }}/{{ _.PRODUCT }}"
 name: product-pagination
@@ -22,9 +22,9 @@ parameters:
     disabled: true
   - id: pair_4b522115d16a440388dcf1f75fe6c824
     name: filter
-    value: concert_id:1
+    value: concert_id:5
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_cfaf313f5527486fb228104bc8b5c57b
     name: sort
     value: -id

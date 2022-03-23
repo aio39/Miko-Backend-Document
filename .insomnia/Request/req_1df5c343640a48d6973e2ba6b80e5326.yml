@@ -1,14 +1,24 @@
 _id: req_1df5c343640a48d6973e2ba6b80e5326
 type: Request
 parentId: fld_dfe63486d6ad40b38a13bb1759688bae
-modified: 1645510650651
+modified: 1646873607812
 created: 1645508143591
 url: "{{ _.local_api }}/{{ _.PRODUCT }}/1"
 name: get one product
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_6d440c0c1e964905aeff1ef14b7e3193
+    name: ""
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_b8ff7a9a7e284cb9b74c2702daedba87
+    name: ""
+    value: ""
+    description: ""
+    disabled: true
 headers:
   - id: pair_1fe72a02528e419c935b30d2fe021026
     name: Content-Type
