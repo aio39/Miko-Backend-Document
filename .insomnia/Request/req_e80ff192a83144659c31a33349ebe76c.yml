@@ -1,0 +1,84 @@
+_id: req_e80ff192a83144659c31a33349ebe76c
+type: Request
+parentId: fld_5b5f6da0876b4fa99f41d2ae802cf397
+modified: 1648538170576
+created: 1648538147286
+url: "{{ _.local_api }}/data/ctadpt"
+name: coTiAmountDonePerTime-pagination
+description: ?b=37.51367367847343&l=126.9138065835704&r=126.92492165772813&t=37.5280034775390
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_8dfdfa30357742b2bf8abe43ec409749
+    name: per_page
+    value: "3"
+    description: ""
+    disabled: true
+  - id: pair_5fd8db2d38904c48a83bfff00d8c3477
+    name: with
+    value: ticket
+    description: ""
+    disabled: true
+  - id: pair_4b522115d16a440388dcf1f75fe6c824
+    name: filter
+    value: category_id:2
+    description: ""
+    disabled: true
+  - id: pair_cfaf313f5527486fb228104bc8b5c57b
+    name: sort
+    value: -id
+    description: ""
+    disabled: true
+  - id: pair_b27c3563c6f04f919d75d88edd8579f9
+    name: distance
+    value: "100"
+    description: ""
+    disabled: true
+  - id: pair_061c7189553548c092b0fa3a6b99e64b
+    name: page
+    value: "2"
+    description: ""
+    disabled: true
+  - id: pair_3b964260299a4d7a8099afc10ed2627e
+    name: search
+    value: miku 2021
+    description: ""
+    disabled: true
+  - id: pair_bb07711eccd04fc989b028b13cb22872
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_bb290f2f723e48a0af34f6229d844ec6
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_14c8183f738a4b1c93b434dc19eac6d0
+    name: start
+    value: 2022-03-21T14:18:00
+    description: ""
+    disabled: false
+  - id: pair_56065487eeb44f748348c0f1f2fbecb3
+    name: end
+    value: 2022-03-21T16:16:00
+    description: ""
+    disabled: false
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e3247957679a4d599449d0b68cea8199
+  - id: pair_9de81343b5a64351a16120e737397a89
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1647597501968
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
