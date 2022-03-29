@@ -1,7 +1,7 @@
 _id: req_97cb79c4a296407d9df81e3abbc9f17b
 type: Request
 parentId: fld_a5d73cbe57b54c23a683f147b8907d0b
-modified: 1648014176273
+modified: 1648016926351
 created: 1645506555695
 url: "{{ _.local_api }}/{{ _.COIN_HISTORIES }}"
 name: create coin-history
