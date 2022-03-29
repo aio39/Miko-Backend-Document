@@ -1,0 +1,21 @@
+_id: req_2044008ba36544f988e20f6d2133327f
+type: Request
+parentId: fld_508efe458dbf40c0a450103de2f6dff6
+modified: 1648014141248
+created: 1648013293893
+url: "{{ _.local_api }}/{{ _.ORDER_PRODUCTS }}"
+name: order_product-pagination
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648013293894
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_7928c3d71e6941b8a229e70e8ef7f611
+type: Request
+parentId: fld_508efe458dbf40c0a450103de2f6dff6
+modified: 1648014627711
+created: 1648013353417
+url: "{{ _.local_api }}/{{ _.ORDER_PRODUCTS }}"
+name: create order_product
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648013353417
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_9c370fe8a6194db6ac65a1cba3bd858d
+type: Request
+parentId: fld_508efe458dbf40c0a450103de2f6dff6
+modified: 1648014608508
+created: 1648013381649
+url: "{{ _.local_api }}/{{ _.ORDER_PRODUCTS }}/1"
+name: delete order_product
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648013381649
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
