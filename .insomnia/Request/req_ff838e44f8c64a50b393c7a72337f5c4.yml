@@ -1,10 +1,10 @@
 _id: req_ff838e44f8c64a50b393c7a72337f5c4
 type: Request
 parentId: fld_52312bb734d34f43b5a3431f1c0c4916
-modified: 1648014214287
+modified: 1649069881626
 created: 1648013720297
 url: "{{ _.local_api }}/{{ _.ORDER }}/1"
-name: order delete
+name: delete order
 description: ""
 method: DELETE
 body: {}

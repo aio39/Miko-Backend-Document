@@ -1,17 +1,17 @@
-_id: req_cd9eb9b069f5466da141916e39ebd0fc
+_id: req_b14844c30469424c8a10867e1f9f1e2e
 type: Request
-parentId: fld_52312bb734d34f43b5a3431f1c0c4916
-modified: 1649069679117
-created: 1648013126234
-url: "{{ _.local_api }}/{{ _.ORDER }}"
-name: order-pagination
+parentId: fld_e102c6b91ff44161a25b6a4e56c4040d
+modified: 1649070129278
+created: 1649069696775
+url: "{{ _.local_api }}/{{ _.CART }}"
+name: cart-pagination
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1648013126235
+metaSortKey: -1649069590574
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

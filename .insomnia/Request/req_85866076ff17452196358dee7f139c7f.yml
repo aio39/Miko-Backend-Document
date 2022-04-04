@@ -1,17 +1,17 @@
-_id: req_cd9eb9b069f5466da141916e39ebd0fc
+_id: req_85866076ff17452196358dee7f139c7f
 type: Request
-parentId: fld_52312bb734d34f43b5a3431f1c0c4916
-modified: 1649069679117
-created: 1648013126234
-url: "{{ _.local_api }}/{{ _.ORDER }}"
-name: order-pagination
+parentId: fld_4a76adb8199d4d5e9e3eda61db5bc5ec
+modified: 1649070085565
+created: 1649069999795
+url: "{{ _.local_api }}/{{ _.CART_PRODUCTS }}/1"
+name: delete cart_product
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1648013126235
+metaSortKey: -1649069785875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
